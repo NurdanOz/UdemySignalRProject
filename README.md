@@ -24,7 +24,7 @@ Proje; **N-Katmanlı Mimari**, **Repository Pattern** ve **RESTful API** standar
 ## ✨ Öne Çıkan Özellikler
 
 - 📡 **Anlık SignalR Entegrasyonu** — İstatistikler, kasa, rezervasyon ve bildirimler gerçek zamanlı güncellenir
-- 📱 **QR Kod ile Sipariş** — Müşteriler masadan QR okutarak sipariş verebilir
+- 📱 **QR Kod Oluşturma** — Masalar için QR Kod oluşturma
 - 🛒 **Sepet & Sipariş Yönetimi** — Dinamik sepet, ürün ve kategori yönetimi
 - 💬 **Anlık Mesajlaşma** — SignalR tabanlı canlı müşteri-garson iletişimi
 - 📊 **Canlı İstatistikler** — Anlık kasa, masa doluluk ve istatistik paneli
