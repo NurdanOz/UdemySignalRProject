@@ -1,0 +1,18 @@
+﻿using AutoMapper;
+using SignalR.DtoLayer.MenuTableDto;
+using SignalR.DtoLayer.MessageDto;
+using SignalR.EntityLayer.Entities;
+
+namespace SignalRApi.Mapping
+{
+    public class MessageMapping:Profile
+    {
+        public MessageMapping()
+        {
+                CreateMap<CreateMessageDto,Message>().ReverseMap();
+                CreateMap<ResultMessageDto,Message>().ReverseMap();
+                CreateMap<GetMessageDto,Message>().ReverseMap();
+                CreateMap<UpdateMessageDto,Message>().ReverseMap();
+        }
+    }
+}
